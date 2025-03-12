@@ -4,4 +4,7 @@
   --header-color: #DB00FF;
   --accent-color: #FF0070;
   --text-color: #F1B2CE;
+  --text-accent-color: var(--bg-color);
+  --section-header-color: var(--accent-color);
+  --decoration-color: var(--accent-color);
 }

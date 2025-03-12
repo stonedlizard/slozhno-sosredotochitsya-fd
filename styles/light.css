@@ -1,9 +1,13 @@
+
 :root.theme-light {
   --bg-image: url(../images/cover-image-light.png);
   --bg-color: #FFF1F7;
   --header-color: #FFC2E6;
   --accent-color: #FF8DCB;
   --text-color: #353430;
+  --text-accent-color: var(--text-color);
+  --section-header-color: var(--text-color);
+  --decoration-color: var(--text-color);
 }
 
 @media (prefers-color-scheme: light) {
@@ -13,6 +17,9 @@
     --header-color: #FFC2E6;
     --accent-color: #FF8DCB;
     --text-color: #353430;
+    --text-accent-color: var(--text-color);
+    --section-header-color: var(--text-color);
+    --decoration-color: var(--text-color);
   }
 }
 
