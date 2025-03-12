@@ -25,4 +25,5 @@
 
 .theme-light .header__dark-mode_decoration {
   display: none;
+  visibility: hidden;
 }

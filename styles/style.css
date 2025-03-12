@@ -214,6 +214,15 @@
 }
 
 @media (min-width: 768px) {
+
+  .body {
+    margin:
+  }
+
+  .header__text-title {
+    margin: 0;
+  }
+
   .header__dark-mode_decoration {
     padding-top: 20px;
   }
@@ -240,6 +249,10 @@
 
   .main__section-tablet .main__section_paragraph-list {
     grid-column: 2 / 4;
+  }
+
+  .main__section-desktop .main__section-header {
+    max-width: 20%;
   }
 
   .header__text-paragraph {
@@ -285,10 +298,14 @@
   }
   .main__section-desktop .main__section_paragraph-list {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(min(321px, 100%), 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
     grid-auto-rows: auto;
   }
   .main__section-paragraph {
     grid-template-rows: 24px;
+  }
+
+  .main__section-desktop .main__section-header {
+    max-width: 30%;
   }
 }
