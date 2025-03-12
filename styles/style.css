@@ -141,7 +141,6 @@
 .main__section-tablet {
   display: grid;
   gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(min(364px, 100%), 1fr));
 }
 
 .main__section_paragraph-list {
@@ -235,10 +234,20 @@
     font-size: var(--h1-font-size-big-screen);
   }
 
+  .main__section-tablet {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .main__section-tablet .main__section_paragraph-list {
+    grid-column: 2 / 4;
+  }
+
   .header__text-paragraph {
     max-width: 50vw;
   }
-  .main__section-gallery {
+
+  .main_section .main__section-gallery {
+    max-height: 100vh;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 20px;
