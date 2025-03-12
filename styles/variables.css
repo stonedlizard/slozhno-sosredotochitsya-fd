@@ -10,4 +10,8 @@
   --main-font-family: 'IBM Plex mono';
   --h1-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --h1-font-size-big-screen: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  --font-size-normal: 18px;
+  --line-height-normal: 23.4px;
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
 }
